@@ -1,0 +1,567 @@
+[
+    {
+        "jp": "お願いします",
+        "pt": "Por favor"
+    },
+    {
+        "jp": "ごめんなさい",
+        "pt": "Desculpe-me"
+    },
+    {
+        "jp": "どうぞ",
+        "pt": "Por favor (ao oferecer algo)"
+    },
+    {
+        "jp": "お元気ですか？",
+        "pt": "Como vai você?"
+    },
+    {
+        "jp": "元気です",
+        "pt": "Estou bem"
+    },
+    {
+        "jp": "はじめまして",
+        "pt": "Muito prazer"
+    },
+    {
+        "jp": "お誕生日おめでとうございます",
+        "pt": "Feliz aniversário"
+    },
+    {
+        "jp": "失礼します",
+        "pt": "Com licença"
+    },
+    {
+        "jp": "どうもありがとう",
+        "pt": "Muito obrigado(a)"
+    },
+    {
+        "jp": "いってきます",
+        "pt": "Estou saindo"
+    },
+    {
+        "jp": "ただいま",
+        "pt": "Cheguei (em casa)"
+    },
+    {
+        "jp": "おやすみなさい",
+        "pt": "Boa noite (antes de dormir)"
+    },
+    {
+        "jp": "お疲れ様です",
+        "pt": "Obrigado pelo seu trabalho"
+    },
+    {
+        "jp": "すみません、わかりません",
+        "pt": "Desculpe, eu não sei"
+    },
+    {
+        "jp": "これをください",
+        "pt": "Por favor, isso"
+    },
+    {
+        "jp": "いくらですか？",
+        "pt": "Quanto custa?"
+    },
+    {
+        "jp": "これはおいしいですね",
+        "pt": "Isso é gostoso, não é?"
+    },
+    {
+        "jp": "お腹がすきました",
+        "pt": "Estou com fome"
+    },
+    {
+        "jp": "どうしましたか？",
+        "pt": "O que houve?"
+    },
+    {
+        "jp": "病気です",
+        "pt": "Estou doente"
+    },
+    {
+        "jp": "大丈夫ですか？",
+        "pt": "Você está bem?"
+    },
+    {
+        "jp": "大丈夫です",
+        "pt": "Estou bem"
+    },
+    {
+        "jp": "よくできましたね",
+        "pt": "Você fez um bom trabalho"
+    },
+    {
+        "jp": "おめでとうございます",
+        "pt": "Parabéns"
+    },
+    {
+        "jp": "お休みなさい",
+        "pt": "Boa noite (para dormir)"
+    },
+    {
+        "jp": "お邪魔します",
+        "pt": "Com licença (ao entrar)"
+    },
+    {
+        "jp": "どうぞおあがりください",
+        "pt": "Por favor, entre"
+    },
+    {
+        "jp": "いってらっしゃい",
+        "pt": "Tenha uma boa viagem"
+    },
+    {
+        "jp": "おかえりなさい",
+        "pt": "Bem-vindo de volta (a casa)"
+    },
+    {
+        "jp": "お先に失礼します",
+        "pt": "Com licença, vou sair antes"
+    },
+    {
+        "jp": "お仕事お疲れ様です",
+        "pt": "Bom trabalho"
+    },
+    {
+        "jp": "お大事に",
+        "pt": "Cuide-se"
+    },
+    {
+        "jp": "お名前は何ですか？",
+        "pt": "Qual é o seu nome?"
+    },
+    {
+        "jp": "お手洗いはどこですか？",
+        "pt": "Onde é o banheiro?"
+    },
+    {
+        "jp": "ごめんください",
+        "pt": "Com licença (ao sair)"
+    },
+    {
+        "jp": "すみません、何時ですか？",
+        "pt": "Desculpe, que horas são?"
+    },
+    {
+        "jp": "これはいくらですか？",
+        "pt": "Quanto custa isso?"
+    },
+    {
+        "jp": "どうぞお召し上がりください",
+        "pt": "Por favor, aproveite (ao servir comida)"
+    },
+    {
+        "jp": "お願いがあります",
+        "pt": "Eu tenho um pedido"
+    },
+    {
+        "jp": "お会いできてうれしいです",
+        "pt": "Estou feliz em conhecê-lo(a)"
+    },
+    {
+        "jp": "お願いがあります",
+        "pt": "Eu tenho um pedido"
+    },
+    {
+        "jp": "どうもありがとうございます",
+        "pt": "Muito obrigado(a)"
+    },
+    {
+        "jp": "いいえ、けっこうです",
+        "pt": "Não, obrigado(a)"
+    },
+    {
+        "jp": "おめでとうございます",
+        "pt": "Parabéns"
+    },
+    {
+        "jp": "これをください",
+        "pt": "Por favor, me dê isso"
+    },
+    {
+        "jp": "どうぞ",
+        "pt": "Por favor"
+    },
+    {
+        "jp": "すみません、わかりません",
+        "pt": "Desculpe, eu não sei"
+    },
+    {
+        "jp": "お願いします",
+        "pt": "Por favor"
+    },
+    {
+        "jp": "これは何ですか？",
+        "pt": "O que é isso?"
+    },
+    {
+        "jp": "これはいくらですか？",
+        "pt": "Quanto custa isso?"
+    },
+    {
+        "jp": "すみません、わかりません",
+        "pt": "Desculpe, eu não sei"
+    },
+    {
+        "jp": "どういたしまして",
+        "pt": "De nada"
+    },
+    {
+        "jp": "今日はいい天気ですね。",
+        "pt": "Hoje o tempo está bom, não é?"
+    },
+    {
+        "jp": "明日、日本語の試験があります。",
+        "pt": "Amanhã tem um exame de japonês."
+    },
+    {
+        "jp": "私は猫が好きです。",
+        "pt": "Eu gosto de gatos."
+    },
+    {
+        "jp": "毎日、日本語を勉強します。",
+        "pt": "Estudo japonês todos os dias."
+    },
+    {
+        "jp": "今晩、友達と映画を見ます。",
+        "pt": "Esta noite vou ver um filme com amigos."
+    },
+    {
+        "jp": "何時ですか？",
+        "pt": "Que horas são?"
+    },
+    {
+        "jp": "明日、何をしますか？",
+        "pt": "O que você vai fazer amanhã?"
+    },
+    {
+        "jp": "お腹が空きました。",
+        "pt": "Estou com fome."
+    },
+    {
+        "jp": "彼女は先生です。",
+        "pt": "Ela é professora."
+    },
+    {
+        "jp": "日本の料理が好きです。",
+        "pt": "Gosto da comida japonesa."
+    },
+    {
+        "jp": "先週、友達と買い物に行きました。",
+        "pt": "Na semana passada fui às compras com amigos."
+    },
+    {
+        "jp": "私は日本に行ったことがあります。",
+        "pt": "Já fui ao Japão."
+    },
+    {
+        "jp": "あなたの犬はかわいいですね。",
+        "pt": "Seu cachorro é fofo."
+    },
+    {
+        "jp": "昨日、図書館で本を借りました。",
+        "pt": "Ontem peguei um livro na biblioteca."
+    },
+    {
+        "jp": "一緒に日本語を勉強しましょう。",
+        "pt": "Vamos estudar japonês juntos."
+    },
+    {
+        "jp": "今週末、友達と旅行に行きます。",
+        "pt": "Este fim de semana vou viajar com amigos."
+    },
+    {
+        "jp": "彼は医者です。",
+        "pt": "Ele é médico."
+    },
+    {
+        "jp": "雨が降っています。",
+        "pt": "Está chovendo."
+    },
+    {
+        "jp": "私の家は広いです。",
+        "pt": "Minha casa é grande."
+    },
+    {
+        "jp": "日本の文化に興味があります。",
+        "pt": "Estou interessado na cultura japonesa."
+    },
+    {
+        "jp": "テレビを見るのが好きです。",
+        "pt": "Gosto de assistir televisão."
+    },
+    {
+        "jp": "今日は忙しいです。",
+        "pt": "Hoje estou ocupado(a)."
+    },
+    {
+        "jp": "私の趣味は音楽を聴くことです。",
+        "pt": "Meu hobby é ouvir música."
+    },
+    {
+        "jp": "冬は寒いです。",
+        "pt": "O inverno é frio."
+    },
+    {
+        "jp": "春に桜が咲きます。",
+        "pt": "As cerejeiras florescem na primavera."
+    },
+    {
+        "jp": "夏に海に行きます。",
+        "pt": "No verão vou à praia."
+    },
+    {
+        "jp": "秋には紅葉がきれいです。",
+        "pt": "No outono as folhas ficam bonitas."
+    },
+    {
+        "jp": "先生、質問があります。",
+        "pt": "Professor(a), tenho uma pergunta."
+    },
+    {
+        "jp": "この本は面白いです。",
+        "pt": "Este livro é interessante."
+    },
+    {
+        "jp": "私の家族は４人です。",
+        "pt": "Minha família tem quatro pessoas."
+    },
+    {
+        "jp": "お茶を飲みますか？",
+        "pt": "Você gostaria de tomar chá?"
+    },
+    {
+        "jp": "私はテニスをします。",
+        "pt": "Eu jogo tênis."
+    },
+    {
+        "jp": "毎週、日曜日に友達と映画を見ます。",
+        "pt": "Todo domingo vejo um filme com amigos."
+    },
+    {
+        "jp": "彼の誕生日は１２月です。",
+        "pt": "O aniversário dele é em dezembro."
+    },
+    {
+        "jp": "日本語を話せますか？",
+        "pt": "Você fala japonês?"
+    },
+    {
+        "jp": "私は日本語を勉強しています。",
+        "pt": "Estou estudando japonês."
+    },
+    {
+        "jp": "彼女は大学生です。",
+        "pt": "Ela é estudante universitária."
+    },
+    {
+        "jp": "日本の漫画が好きです。",
+        "pt": "Gosto de mangás japoneses."
+    },
+    {
+        "jp": "何か飲み物がほしいですか？",
+        "pt": "Você gostaria de alguma bebida?"
+    },
+    {
+        "jp": "昨日、映画を見ました。",
+        "pt": "Ontem assisti a um filme."
+    },
+    {
+        "jp": "猫と犬は友達です。",
+        "pt": "Gatos e cachorros são amigos."
+    },
+    {
+        "jp": "日本の音楽が好きです。",
+        "pt": "Gosto de música japonesa."
+    },
+    {
+        "jp": "明日は晴れますか？",
+        "pt": "Vai fazer sol amanhã?"
+    },
+    {
+        "jp": "毎朝、コーヒーを飲みます。",
+        "pt": "Tomo café todas as manhãs."
+    },
+    {
+        "jp": "山に登るのが好きです。",
+        "pt": "Gosto de escalar montanhas."
+    },
+    {
+        "jp": "毎晩、本を読みます。",
+        "pt": "Leio livros todas as noites."
+    },
+    {
+        "jp": "夏休みに日本に行きます。",
+        "pt": "Vou ao Japão nas férias de verão."
+    },
+    {
+        "jp": "日本の映画が面白いです。",
+        "pt": "Filmes japoneses são interessantes."
+    },
+    {
+        "jp": "昼ご飯は何を食べますか？",
+        "pt": "O que você come no almoço?"
+    },
+    {
+        "jp": "犬を飼っています。",
+        "pt": "Tenho um cachorro."
+    },
+    {
+        "jp": "毎週、日曜日に散歩します。",
+        "pt": "Todo domingo eu passeio."
+    },
+    {
+        "jp": "私は夜更かしをします。",
+        "pt": "Eu fico acordado até tarde."
+    },
+    {
+        "jp": "今日の天気はどうですか？",
+        "pt": "Como está o tempo hoje?"
+    },
+    {
+        "jp": "私は寿司が好きです。",
+        "pt": "Eu gosto de sushi."
+    },
+    {
+        "jp": "来週、試験があります。",
+        "pt": "Na próxima semana tem um teste."
+    },
+    {
+        "jp": "今週末、友達と遊びます。",
+        "pt": "Vou sair com amigos neste fim de semana."
+    },
+    {
+        "jp": "彼はとても親切です。",
+        "pt": "Ele é muito gentil."
+    },
+    {
+        "jp": "私の趣味は写真を撮ることです。",
+        "pt": "Meu hobby é tirar fotos."
+    },
+    {
+        "jp": "私の友達は面白いです。",
+        "pt": "Meus amigos são engraçados."
+    },
+    {
+        "jp": "家で日本語を勉強します。",
+        "pt": "Estudo japonês em casa."
+    },
+    {
+        "jp": "彼は昨日、病院に行きました。",
+        "pt": "Ele foi ao hospital ontem."
+    },
+    {
+        "jp": "今週、日本に行きます。",
+        "pt": "Vou ao Japão esta semana."
+    },
+    {
+        "jp": "お酒は飲みません。",
+        "pt": "Não bebo álcool."
+    },
+    {
+        "jp": "この車は高いです。",
+        "pt": "Este carro é caro."
+    },
+    {
+        "jp": "学校は楽しいです。",
+        "pt": "A escola é divertida."
+    },
+    {
+        "jp": "彼は料理が上手です。",
+        "pt": "Ele cozinha bem."
+    },
+    {
+        "jp": "今日は何か特別な日ですか？",
+        "pt": "Hoje é algum dia especial?"
+    },
+    {
+        "jp": "来年、日本に行きたいです。",
+        "pt": "Quero ir ao Japão no próximo ano."
+    },
+    {
+        "jp": "その映画は面白そうです。",
+        "pt": "Este filme parece interessante."
+    },
+    {
+        "jp": "私は英語を話します。",
+        "pt": "Eu falo inglês."
+    },
+    {
+        "jp": "彼女は優しいです。",
+        "pt": "Ela é gentil."
+    },
+    {
+        "jp": "毎日、仕事に行きます。",
+        "pt": "Vou ao trabalho todos os dias."
+    },
+    {
+        "jp": "先週、海に行きました。",
+        "pt": "Na semana passada fui ao mar."
+    },
+    {
+        "jp": "この映画は怖いです。",
+        "pt": "Este filme é assustador."
+    },
+    {
+        "jp": "日本の祭りに行きます。",
+        "pt": "Vou a um festival japonês."
+    },
+    {
+        "jp": "私は子供が好きです。",
+        "pt": "Eu gosto de crianças."
+    },
+    {
+        "jp": "冬は寒いですが、好きです。",
+        "pt": "O inverno é frio, mas eu gosto."
+    },
+    {
+        "jp": "私の友達は面白い話ができます。",
+        "pt": "Meus amigos sabem contar histórias engraçadas."
+    },
+    {
+        "jp": "彼は強いです。",
+        "pt": "Ele é forte."
+    },
+    {
+        "jp": "これは私の自転車です。",
+        "pt": "Esta é minha bicicleta."
+    },
+    {
+        "jp": "彼女のお母さんは病気です。",
+        "pt": "A mãe dela está doente."
+    },
+    {
+        "jp": "私の趣味は映画を見ることです。",
+        "pt": "Meu hobby é assistir filmes."
+    },
+    {
+        "jp": "今日の晩ご飯は何ですか？",
+        "pt": "O que é o jantar de hoje?"
+    },
+    {
+        "jp": "私は彼の音楽が好きです。",
+        "pt": "Eu gosto da música dele."
+    },
+    {
+        "jp": "毎日、ジョギングをします。",
+        "pt": "Corro todos os dias."
+    },
+    {
+        "jp": "この料理は美味しいです。",
+        "pt": "Esta comida é deliciosa."
+    },
+    {
+        "jp": "日本の友達がいます。",
+        "pt": "Tenho amigos no Japão."
+    },
+    {
+        "jp": "彼は忙しい人です。",
+        "pt": "Ele é uma pessoa ocupada."
+    },
+    {
+        "jp": "明日、何をしますか？",
+        "pt": "O que você vai fazer amanhã?"
+    }
+
+]

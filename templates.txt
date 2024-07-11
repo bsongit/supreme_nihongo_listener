@@ -1,0 +1,136 @@
+PARA BUILDAR :  eas build --platform android  --profile preview
+
+eas build --platform android --local
+
+
+quero array com 80 frases sem repetir usando kanjis do JLPT N5 seguindo a seguinte estrutura json exemplo :      {
+        "jp": "frase em japonês",
+        "pt": "tradução em portugues"
+    },
+
+
+sem repetir, gere 100 frases nivel jlpt n5, 
+usando adverbos de frequencia um array de json 
+usando o seguinte padrão: {jp : "a frase  em japones" , pt: "a tradução da frase"} .
+
+
+sem repetir, gere 100 frases nivel jlpt n5, 
+criando frases que possuem adjetivos, retorne um array de json 
+usando o seguinte padrão: {jp : "a frase  em japones" , pt: "a tradução da frase"} .
+
+sem repetir, gere 100 frases nivel jlpt n5, 
+dialogos de contagem de pessoas e coisas, animais, objetos e etc,retorne um array de json 
+usando o seguinte padrão: {jp : "a frase  em japones" , pt: "a tradução da frase"} .
+
+
+
+
+//vocabulario
+sem repetir, gere 100 frases nivel jlpt n5, 
+vocabulario sobre animais, retorne um array de json 
+usando o seguinte padrão: {jp : "a frase  em japones" , pt: "a tradução da frase"} .
+
+Conjulgação de verbos
+
+Forma Dicionário (辞書形, jisho-kei)
+Forma Formal/Polida (ます形, masu-kei)
+Forma て (て形, te-kei)
+Forma た (た形, ta-kei)
+Forma ない (ない形, nai-kei) (negativa informal)
+Forma ません (ません形, masen-kei) (negativa formal)
+Forma たい (たい形, tai-kei) (desejo)
+Forma Passiva (受身形, ukemi-kei)
+Forma Causativa (使役形, shieki-kei)
+Forma Causativa-Passiva (使役受身形, shieki-ukemi-kei)
+Forma Condicional (ば形, ba-kei)
+Forma Volitiva (意向形, ikou-kei)
+Forma potencial (可能形, kanou-kei) 
+
+Forma Passado informal 
+Forma Passado informal negativo
+Forma Passado Formal 
+Forma Passado Formal negativo 
+
+
+GRUPO DO VERBO - 1 2 , 3
+SE É VERBO IRREGULAR
+
+
+
+substantivo: {
+    jlpt_level: n5 a n1
+    vocabulario: tipo do vocabulario
+}
+
+verbo: {
+    jlpt_level: n5 a n1
+    grupo: 1 2 ou 3,
+    irregular: true ou false
+    vocabulario: tipo do vocabulario
+    jisho : "",
+    masu : "",
+    te : "",
+    teiru : "",
+    ta : "",
+    nakatta: "",
+    nai : "",
+    masen : "",
+    tai : "",
+    ukemi : "",
+    shieki : "",
+    shieki_ukemi : "",
+    ba : "",
+    ikou : "",
+    kanou : ""
+}
+
+
+adjetivo = {
+    
+    jlpt_level: n5 a n1,
+    forma_padrao: "",
+    forma_i : "",
+    forma_i_presente: "",
+    forma_i_presente_negativo: "",
+    forma_i_passado: "",
+    forma_i_passado_negativo: "",
+    forma_na : "",
+    forma_na_presente: "",
+    forma_na_presente_negativo: "",
+    forma_na_passado: "",
+    forma_na_passado_negativo: "",
+
+}
+
+
+estruturas
+
+
+Sujeito + wa + Adjetivo + desu:
+Sujeito + wa + Adjetivo + na + desu:
+Sujeito + wa + Objeto + wo + Verbo:
+Sujeito + ga + Verbo + desu:
+Sujeito + wa + Verbo + desu:
+Sujeito + wo + Verbo + masu:
+Sujeito + wa + Lugar + ni + Verbo:
+Sujeito + wa + Tempo + ni + Verbo:
+Sujeito + wa + Objeto + ga + Adjetivo + desu:
+Sujeito + wa + Objeto + ga + Adjetivo + na + desu
+Sujeito + wa + Objeto + o + Verbo + ka?
+Sujeito + wa + Objeto + o + Verbo + masen
+Sujeito + wa + Adjetivo + ku + Verbo
+Sujeito + wa + Substantivo + ga + Adjetivo + desu
+
+Sujeito + と + Sujeito + wo + Verbo 
+Sujeito + と + Sujeito + wo + Adjetivo 
+
+//VERIFICAR
+Sujeito + wa + Finalidade + ni + OBJETO + wo + Verbo.
+Sujeito + wa + Verbo 1 (forma -て) + Verbo 2
+Verbo (forma -て)  + ください
+Verbo (forma -て) + wa + いけません
+Verbo (forma -て)  +  mo + adjetivo + desu + ka
+Verbo (forma -て)  +  mo + verbo masu ou masen
+Verbo (forma -ている)
+
+
