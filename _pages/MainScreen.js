@@ -72,7 +72,7 @@ export default class MainScreen extends React.Component {
             const voices = await Speech.voices();
             this.setState({ voices });
             this.searchForVoices(voices);
-            this.setSpeechInterval(5000);
+            this.setSpeechInterval(6000);
         } catch (error) {
             console.log(error);
         }
@@ -231,10 +231,10 @@ export default class MainScreen extends React.Component {
 
                     <View style={styles.studyContainer}>
                             <View key={this.state.speechIntervalCounter} style={styles.phrase}>
-                                <View style={styles.phraseTextContainer}>
+                                <View >
                                     <Text style={styles.phraseText}>{this.state.currentPhrase.jp}</Text>
                                 </View>
-                                <View style={styles.phraseTextContainer}>
+                                <View >
                                     <Text style={styles.phraseTranslation}>{this.state.currentPhrase.pt}</Text>
                                 </View>
                             </View>
@@ -258,6 +258,9 @@ export default class MainScreen extends React.Component {
                             onPress={() => this.stopSpeakers()}
                         />}
                     </View>
+                    <View style={styles.phraseTextContainer}>
+                        <Text style={styles.phraseText}>{this.state.speechIntervalCounter} / {this.state.filteredPhrases.length}</Text>
+                    </View>
 
                 </View>
                 
@@ -274,7 +277,7 @@ const styles = {
         padding: 12
     },
     studyContainer:{
-        marginTop: 64,
+        marginTop: 32,
         padding: 12,
         with: '100%',
         borderWidth: 1, 
@@ -463,7 +466,7 @@ const styles = {
         marginTop: 4, 
         borderRadius: 2, 
         width: '100%', 
-        height: 600,
+        height: 500,
         display: 'flex', 
         flexDirection: 'column', 
         borderWidth: 1, 
@@ -472,6 +475,7 @@ const styles = {
         alignItems: 'center'
     },
     phraseTextContainer: {
+        marginTop: 12
         // display: 'flex', 
         // width: '100%'
     },
