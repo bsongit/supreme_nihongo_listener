@@ -1,6 +1,6 @@
 PARA BUILDAR :  eas build --platform android  --profile preview
 
-eas build --platform android --local
+eas build --platform android --local --profile preview2
 
 
 quero array com 80 frases sem repetir usando kanjis do JLPT N5 seguindo a seguinte estrutura json exemplo :      {

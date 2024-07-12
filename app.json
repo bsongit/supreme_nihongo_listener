@@ -11,6 +11,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
+    "plugins": [],
     "ios": {
       "supportsTablet": true
     },
@@ -19,7 +21,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.werbeson.SupremeNihongoListener"
+      "package": "com.werbeson.SupremeNihongoListener",
+      "permissions": ["android.permission.RECORD_AUDIO"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
