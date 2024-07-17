@@ -1,10 +1,12 @@
 import * as React from 'react';
 import Checkbox from 'expo-checkbox';
-import { Platform, View, Pressable, Text, Image, TextInput } from 'react-native';
+import { Platform, View, Pressable, Text, Image, TextInput, StyleSheet } from 'react-native';
 import * as Speech from '../_services/Speech';
 import closeIcon from '../assets/icons/close.png';
 import { getDataBase } from '../_services/DatabaseService';
 import { IconButton, MD3Colors } from 'react-native-paper';
+
+import listen_icon from '../assets/icons/hearing_24.png';
 
 export default class MainScreen extends React.Component {
     constructor(props) {
@@ -27,7 +29,13 @@ export default class MainScreen extends React.Component {
             tagList: ["todos"],
             tagPanel: []
         };
+
     }
+
+    componentWillUnmount() {
+        this.stopSpeakers();
+    }
+    
 
     componentDidMount() {
         this.updateTagPanel(this.state.tagList);
@@ -163,8 +171,11 @@ export default class MainScreen extends React.Component {
     }
 
     render() {
+
         return !this.state.isSpeaking?
+
                 <View style={styles.container}>
+                    <Image style={styles.imageIcon} source={listen_icon}></Image>
                 <View style={styles.studyContainer}>
                     <View style={styles.header}>
                         <Text style={styles.headerText}>Configurar estudo de escuta</Text>
@@ -222,13 +233,13 @@ export default class MainScreen extends React.Component {
                             mode= "contained"
                             iconColor={MD3Colors.error50}
                             size={32}
-                            onPress={() => { this.startSpeakers() }}
+                            onPress={() => {this.startSpeakers()}}
                         /> 
                     </View>
                 </View>
                 : 
                 <View style={styles.container}>
-
+                        <Image style={styles.imageIcon} source={listen_icon}></Image>
                     <View style={styles.studyContainer}>
                             <View key={this.state.speechIntervalCounter} style={styles.phrase}>
                                 <View >
@@ -267,7 +278,7 @@ export default class MainScreen extends React.Component {
     }
 }
 
-const styles = {
+const styles = StyleSheet.create({
     container: {
         backgroundColor: '#1f1e1e', 
         flex: 1, 
@@ -277,12 +288,19 @@ const styles = {
         padding: 12
     },
     studyContainer:{
-        marginTop: 32,
+        marginTop: 64,
         padding: 12,
         with: '100%',
         borderWidth: 1, 
         borderRadius: 2, 
         borderColor: '#acb8bd'
+    },
+    imageIcon: {
+        position: 'absolute',
+        top: 10,
+        left: '43%',
+        width: 48,
+        height: 48
     },
     playerContairnerControl: {
         with: '100%',
@@ -488,4 +506,4 @@ const styles = {
         fontSize: 16, 
         color: '#acb8bd'
     }
-};
+});

@@ -23,6 +23,19 @@ dialogos de contagem de pessoas e coisas, animais, objetos e etc,retorne um arra
 usando o seguinte padrão: {jp : "a frase  em japones" , pt: "a tradução da frase"} .
 
 
+//PERGUNTAS E REPOSTAS
+sem repetir, gere 100 perguntas e respostas nivel jlpt n5, 
+usando verbos essenciais do japonês, retorne um array de json 
+usando o seguinte padrão, as propriedades do JSON são: 
+ Question (Será feita sempre em português, caso a question seja 100% em português a answer deve ser feita em japonês, senão a answer deve ser em português) ,
+ Phrase: (Será feita em Japonês (forma com Kanjis) ou Katakana) ou português)
+ Answer:  ( Se a phrase for em japonês((forma Hiragana , forma com Kanjis ) ou Katakana) a answer é em português e vice-versa), 
+languagePhrase (segue a logica de se a Phrase for em português será pt , se não será ja)
+languageAnswer (segue a logica de se a Answer for em português será pt , se não será ja)
+
+exemplo :  { "question": "Como se diz 'comer' em japonês?", "phrase": "comer", "answer": "たべる , 食べる", "languagePhrase": "pt", "languageAnswer": "ja" },
+ou { "question": "Como se diz '食べる' em português?", "phrase": "食べる", "answer": "Comer", "languagePhrase": "ja", "languageAnswer": "pt" },
+
 
 
 //vocabulario
