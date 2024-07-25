@@ -9,6 +9,7 @@ export function NavigationContainer(props) {
   const navigationItems = [
     { title: 'Treino de escuta', icon: listen_icon, action: () => { props.navigation.push('MainScreen'); updateComponent(); }},
     { title: 'Treino de respostas', icon: speech_icon,  action: () => { props.navigation.push('QuestionModeScreen'); updateComponent(); }},
+    { title: 'Revisão de erros', icon: speech_icon,  action: () => { props.navigation.push('MistakeModeScreen'); updateComponent(); }},
   ];
 
   const updateComponent = () => {

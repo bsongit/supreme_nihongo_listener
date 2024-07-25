@@ -24,18 +24,38 @@ usando o seguinte padrão: {jp : "a frase  em japones" , pt: "a tradução da fr
 
 
 //PERGUNTAS E REPOSTAS
-sem repetir, gere 100 perguntas e respostas nivel jlpt n5, 
-usando verbos essenciais do japonês, retorne um array de json 
+formule questões em português, nivel jlpt n5 , retorne sem repetir 100 elementos,  em um array de json 
 usando o seguinte padrão, as propriedades do JSON são: 
+
+exemplo: 
+  { "question": "Como se diz 'Eu como sushi' em japonês?", "phrase": "Eu como sushi", "answer": "寿司を食べます", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼は日本語を勉強します。' em português?", "phrase": "彼は日本語を勉強します。", "answer": "Ele estuda japonês.", "languagePhrase": "ja", "languageAnswer": "pt" },
+
+Seguir as seguintes regras: não necessariamente a phrase se resume a uma palavra, ela deve ser uma frase completa.
+em question o que está entre aspas simples '' sempre será do mesmo idioma e igual ao que está no atributo phrase.
+phrase Será feita em Japonês (forma com Kanjis) ou Katakana) , ou frase é feita em português.
+
+deve variar a neira de formular a question, por exemplo: 
+
+Como se diz atributo.phrase em japonês.
+Como se diz atributo.phrase em português.
+Na frase seguinte frase em japonês: atributo.phrase . Qual forma de verbo está sendo usada? ,
+Como qual a maneira de contar o (objeto, animal, pessoa e etc que está no atributo.phrase) atributo.phrase . em japonês.
+Qual a forma negativa da phrase atributo.phrase em japonês.
+Qual a forma masu da phrase atributo.phrase em japonês.
+
+use a criatividade para formar as questions, crie questões interessantes sempre respeitando o modelo do JSON.
+
+
+ 
+
+
+
  Question (Será feita sempre em português, caso a question seja 100% em português a answer deve ser feita em japonês, senão a answer deve ser em português) ,
  Phrase: (Será feita em Japonês (forma com Kanjis) ou Katakana) ou português)
  Answer:  ( Se a phrase for em japonês((forma Hiragana , forma com Kanjis ) ou Katakana) a answer é em português e vice-versa), 
 languagePhrase (segue a logica de se a Phrase for em português será pt , se não será ja)
 languageAnswer (segue a logica de se a Answer for em português será pt , se não será ja)
-
-exemplo :  { "question": "Como se diz 'comer' em japonês?", "phrase": "comer", "answer": "たべる , 食べる", "languagePhrase": "pt", "languageAnswer": "ja" },
-ou { "question": "Como se diz '食べる' em português?", "phrase": "食べる", "answer": "Comer", "languagePhrase": "ja", "languageAnswer": "pt" },
-
 
 
 //vocabulario

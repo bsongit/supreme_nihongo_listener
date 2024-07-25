@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import { Text, View, TouchableOpacity, StyleSheet, Platform , TextInput, Pressable, Image} from 'react-native';
 import Voice from '@react-native-voice/voice';
 import * as Speech from '../_services/Speech';
-import { getDataBaseQuestions } from '../_services/DatabaseService';
 import closeIcon from '../assets/icons/close.png';
 import { IconButton, MD3Colors } from 'react-native-paper';
 import speech_icon from '../assets/icons/mic_external.png';
-import {pushData, setData, clearAllData} from '../_services/StorageService'
+import {pushData, getData, deleteIndexData} from '../_services/StorageService'
 
-export default  class QuestionModeScreen extends Component {
+export default  class MistakeModeScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -43,7 +42,6 @@ export default  class QuestionModeScreen extends Component {
   }
 
   componentDidMount(){
-    clearAllData()
     this.updateTagPanel(this.state.tagList);
     this.onGetVoices();
   }
@@ -73,7 +71,7 @@ export default  class QuestionModeScreen extends Component {
 
   updateTagPanel(tagList) {
     this.setState({ tagList });
-    this.getQuestions(tagList);
+    this.getQuestions();
   }
 
   handleTagChange(e) {
@@ -113,9 +111,12 @@ export default  class QuestionModeScreen extends Component {
     this.setState({ filteredQuestions: filteredQuestions.sort(this.shuffleComparator) });
   }
 
-  getQuestions(tagList) {
-    const questions = getDataBaseQuestions(tagList);
-    this.setState({ allQuestions: questions, filteredQuestions: questions.sort(this.shuffleComparator) });
+  getQuestions() {
+    getData('mistakesArr').then(res => {
+      const questions =  res? JSON.parse(res) : [];
+      this.setState({ allQuestions: questions, filteredQuestions: questions.sort(this.shuffleComparator) });
+    })
+
   }
 
 
@@ -216,9 +217,10 @@ export default  class QuestionModeScreen extends Component {
 
   speechResults(result){
       if(result != '' && this.state.filteredQuestions[this.state.currentQuestionIndex].answer.toLowerCase().replace('.','').includes(result)){
-          Speech.speak("Parabéns, a resposta está correta. ", { _voiceIndex: 2, language : "pt", voice: 'pt-br-x-ptd-local' });
-          this.setState({currentQuestionIndex: this.state.currentQuestionIndex + 1, answerVisible: true});
-          this.startSpeakers();
+        deleteIndexData('mistakesArr', this.state.currentQuestionIndex)
+        Speech.speak("Parabéns, a resposta está correta. ", { _voiceIndex: 2, language : "pt", voice: 'pt-br-x-ptd-local' });
+        this.setState({currentQuestionIndex: this.state.currentQuestionIndex + 1, answerVisible: true});
+        this.startSpeakers();
         }
         // else if(!this.state.filteredQuestions[this.state.currentQuestionIndex].answer.toLowerCase().includes(result) || result == ''){
         //   Speech.speak("Errado, a resposta correta é: ", { _voiceIndex: 2, language : "pt", voice: 'pt-br-x-ptd-local' });
@@ -245,7 +247,7 @@ export default  class QuestionModeScreen extends Component {
         <Image style={styles.imageIcon} source={speech_icon}></Image>
     <View style={styles.studyContainer}>
         <View style={styles.header}>
-            <Text style={styles.headerText}>Configurar estudo de perguntas e respostas</Text>
+            <Text style={styles.headerText}>Configurar estudo de revisão de erros</Text>
         </View>
 
                 <View style={styles.inputContainer}>
@@ -258,29 +260,6 @@ export default  class QuestionModeScreen extends Component {
                         value={this.state.wordFilter}
                     />
                 </View>
-                <View style={styles.inputContainer}>
-                    <TextInput
-                        onBlur={this.addTag.bind(this)}
-                        onChange={this.handleTagChange.bind(this)}
-                        onChangeText={this.handleTagChange.bind(this)}
-                        style={styles.input}
-                        placeholder='Incluir tag'
-                        value={this.state.currentTag}
-                    />
-                </View>
-                <View style={styles.tagContainer}>
-                    {this.state.tagList.map((tag, index) =>
-                        <Pressable
-                            key={index}
-                            onPress={() => {this.state.tagList.splice(index, 1); this.updateTagPanel(this.state.tagList) }}
-                            style={styles.tag}
-                        >
-                            <Text style={styles.tagText}>{tag}</Text>
-                            <Image style={styles.closeIcon} source={closeIcon} />
-                        </Pressable>
-                    )}
-                </View>
-
     </View>
 
 

@@ -1,0 +1,20 @@
+[
+  { "question": "Como se diz 'Eu como sushi' em japonês?", "phrase": "Eu como sushi", "answer": "寿司を食べます", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼は日本語を勉強します。' em português?", "phrase": "彼は日本語を勉強します。", "answer": "Ele estuda japonês.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Ela bebe café' em japonês?", "phrase": "Ela bebe café", "answer": "彼女はコーヒーを飲みます", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '私たちは映画を見ます。' em português?", "phrase": "私たちは映画を見ます。", "answer": "Nós assistimos a um filme.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Eles jogam futebol' em japonês?", "phrase": "Eles jogam futebol", "answer": "彼らはサッカーをします", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼女は歌を歌います。' em português?", "phrase": "彼女は歌を歌います。", "answer": "Ela canta uma canção.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Eu faço meu dever de casa' em japonês?", "phrase": "Eu faço meu dever de casa", "answer": "宿題をします", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼は新しい車を買います。' em português?", "phrase": "彼は新しい車を買います。", "answer": "Ele compra um carro novo.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Nós aprendemos japonês' em japonês?", "phrase": "Nós aprendemos japonês", "answer": "私たちは日本語を学びます", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼女は早く走ります。' em português?", "phrase": "彼女は早く走ります。", "answer": "Ela corre rápido.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Você escreve um livro' em japonês?", "phrase": "Você escreve um livro", "answer": "本を書きます", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '私は日本に行きます。' em português?", "phrase": "私は日本に行きます。", "answer": "Eu vou para o Japão.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Ela compra flores' em japonês?", "phrase": "Ela compra flores", "answer": "彼女は花を買います", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼はテニスをします。' em português?", "phrase": "彼はテニスをします。", "answer": "Ele joga tênis.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Nós cantamos juntos' em japonês?", "phrase": "Nós cantamos juntos", "answer": "一緒に歌を歌います", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '彼女は窓を開けます。' em português?", "phrase": "彼女は窓を開けます。", "answer": "Ela abre a janela.", "languagePhrase": "ja", "languageAnswer": "pt" },
+  { "question": "Como se diz 'Você ensina inglês' em japonês?", "phrase": "Você ensina inglês", "answer": "英語を教えます", "languagePhrase": "pt", "languageAnswer": "ja" },
+  { "question": "Como se diz '私たちはピザを食べます。' em português?", "phrase": "私たちはピザを食べます。", "answer": "Nós comemos pizza.", "languagePhrase": "ja", "languageAnswer": "pt" }
+]
